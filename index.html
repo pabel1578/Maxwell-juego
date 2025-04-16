@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Un Regalo Especial para Ti, Maxwell!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Este Regalo es para Ti, Maxwell!</h1>
+        <p id="message">Haz clic en los bloques para recolectar recursos. ¡Sé el mejor minero!</p>
+
+        <div class="resource-area">
+            <div class="resource" id="madera">
+                <img src="maxresdefault.jpg" alt="Madera">
+                <span id="contador-madera">0</span>
+            </div>
+            <div class="resource" id="piedra">
+                <img src="png-transparent-minecraft-pocket-edition-brick-mod-video-game-mine-planter-service-game-angle-rectangle-thumbnail.png" alt="Piedra">
+                <span id="contador-piedra">0</span>
+            </div>
+            <div class="resource" id="diamante">
+                <img src="png-clipart-minecraft-pocket-edition-video-game-diamond-sword-minecraft-story-mode-season-two-钻石-angle-rectangle.png" alt="Diamante">
+                <span id="contador-diamante">0</span>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="block" id="block-madera"></div>
+            <div class="block" id="block-piedra"></div>
+            <div class="block" id="block-diamante"></div>
+        </div>
+
+        <div class="special-message">
+            <p id="special-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
